@@ -20,7 +20,27 @@
 		<input type="button" name="button" value="button" /><br />
 		<input type="reset" name="reset" value="reset" /><br />
 		<input type="submit" name="submit" value="submit" /><br />
-		<input type="image" src="http://placehold.it/100x100" />
+		<input type="image" src="http://placehold.it/100x100" /><br/><br/>
+		
+		<!-- 연관있는 입력 양식 그룹으로 묶기 -->
+		<fieldset>
+			<legend>입력 양식</legend>
+			<table>
+				<tr>
+					<td><label for="name">이름</label></td>
+					<td>
+						<input id="name" type="text" />
+					</td>
+				</tr>
+				<tr>
+					<td><label for="mail">이메일</label></td>
+					<td><input id="mail" type="email" /></td>
+				</tr>
+			</table>
+			<input type="submit" />
+		</fieldset>
+		
+		<textarea cols="80" rows="5">디폴트	11</textarea>
 	</form>
 </body>
 </html>
