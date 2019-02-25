@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+<title>Insert title here</title>
+<style>
+	li:hover {
+		background: purple;
+	}
+	a:hover {
+		color: white; 
+		text-decoration: none;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Button Group</h2>
+		<div class="btn-group btn-group-lg mb-3 btn-block">
+			<button type="button" class="btn btn-primary">apple</button>
+			<button type="button" class="btn btn-success">samsung</button>
+			<button type="button" class="btn btn-warning">sony</button>
+		</div>
+		<div class="btn-group-vertical btn-group-lg btn-block mb-3">
+			<button type="button" class="btn btn-primary">apple</button>
+			<button type="button" class="btn btn-success">samsung</button>
+			<div class="btn-group">
+				<button type="button" class="btn btn-warning dropdown-toggle"
+									data-toggle="dropdown">
+									sony<span class="caret"></span></button>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">Tablet</a></li>
+										<li><a href="#">Smartphone</a></li>
+									</ul>									
+			</div>
+		</div>
+		<div class="btn-group btn-group-justified btn-group-lg btn-block mb-3">
+			<button type="button" class="btn btn-primary">apple</button>
+			<button type="button" class="btn btn-success">samsung</button>
+			<button type="button" class="btn btn-warning">sony</button>
+			<button type="button" class="btn btn-warning dropdown-toggle"
+									data-toggle="dropdown"><span class="caret"></span></button>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">Tablet</a></li>
+										<li><a href="#">Smartphone</a></li>
+									</ul>
+		</div>
+	</div>
+</body>
+</html>

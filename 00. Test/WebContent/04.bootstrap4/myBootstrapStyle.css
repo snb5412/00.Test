@@ -1,0 +1,17 @@
+@charset "UTF-8";
+header{
+		color: white;
+		background-image: url("../images/Desert.jpg");
+	}
+.jumbotron{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.card{
+	box-shadow: 3px 3px 3px gray;
+}
+
+body {
+	margin-right: 2em;
+	margin-left: 2em;
+}
